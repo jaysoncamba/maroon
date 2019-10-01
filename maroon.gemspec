@@ -6,7 +6,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "maroon/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{maroon_gem}
+  s.name          = 'maroon'
   s.version       = Maroon::VERSION.dup
   s.date          = %q{2019-10-01}
   s.summary       = %q{Simulation Scoring gem for PRO}
